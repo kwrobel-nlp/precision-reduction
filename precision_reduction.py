@@ -186,7 +186,7 @@ class M5_TFIDF_RED_SVD:
 
 
 corpus_names = sys.argv[1]
-names = [corpus_names.split(' ')]
+names = corpus_names.split(' ')
 
 f = open('results_' + corpus_names+'.csv', 'w')
 writer = csv.writer(f)
